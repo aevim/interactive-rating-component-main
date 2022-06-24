@@ -26,12 +26,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./public/imgs/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution](https://your-solution-url.com)
+- [Site](https://aevim.github.io/interactive-rating-component-main/)
 
 ## My process
 
@@ -46,7 +46,7 @@ Users should be able to:
 ### What I learned
 The js part was really fun. I had a bit of a problem with overthinking, but taking 
 the 'baby steps' advice helped alot. I use a bit of less, which I have never used before.
-Jquery was very helpfull with those lengthy js DOM codes.
+Jquery was very helpfull with those lengthy js DOM codes.  
 
 ## Author
 
