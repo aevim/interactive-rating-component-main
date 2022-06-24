@@ -6,7 +6,7 @@ let doesAnyHas = (element) => {
 let getNumber = value => value[0].classList[2].slice(-1);
 
 let storage = (remove, name, item) => {
-  if (remove) {
+  if (remove === 'remove') {
     return sessionStorage.removeItem(name);
   }
   return sessionStorage.setItem(name, getNumber(item));
@@ -18,17 +18,17 @@ $( '.number' ).click(function (e) {
   let exist = doesAnyHas(el)
 
   if (!exist) {
-    storage(false, 'selected', el);
+    storage('', 'selected', el);
     return el.addClass( 'number--clicked' );
   }
   else if (el[0].classList[2] === exist.classList[2]) {
-    storage(true, 'selected');
+    storage('remove', 'selected');
     return el.removeClass( 'number--clicked' );
   }
   else {
     $('.' + exist.classList[2]).removeClass( 'number--clicked' );
-    storage(true, exist.classList[2]);
-    storage(false, 'selected', el);
+    storage('remove', exist.classList[2]);
+    storage('', 'selected', el);
     return el.addClass( 'number--clicked' );
   }
 });
