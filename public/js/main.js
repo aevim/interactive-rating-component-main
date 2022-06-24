@@ -32,3 +32,10 @@ $( '.number' ).click(function (e) {
     return el.addClass( 'number--clicked' );
   }
 });
+
+$( '.rating__btn' ).click( function (e) {
+  let number = $( '.number' );
+  if (!doesAnyHas(number)) {
+    return e.preventDefault();
+  }
+})

@@ -18,7 +18,7 @@
 <body>
   <main class="rating">
     <header class="rating__header">
-      <img class="header__icon" src="public/imgs/icon-star.svg" alt="star icon">
+      <img class="header__icon" src="public/imgs/icon-star.svg" onerror="this.src='public/imgs/icon-star.png';this.onerror=null;" alt="">
       <h1 class="header__text">How did we do?</h1>
       <p class="header__paragraph">Please let us know how we did with your support 
         request. All feedback is appreciated to help us improve our offering!
@@ -36,10 +36,12 @@
     <a class="rating__btn rating__btn--action" href="rated.html">Submit</a>
     </main>
 
-    <small role="contentinfo" class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/aevim" target="_blank">aevim</a>.
-    </small>
+    <footer class="author">
+      <small class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://github.com/aevim" target="_blank">aevim</a>.
+      </small>
+    </footer>
     <script src="public/js/main.js"></script>
 </body>
 </html>
