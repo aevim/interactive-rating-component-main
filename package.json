@@ -1,0 +1,14 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "less-dev": "lessc src/less/main.less public/css/style.css"
+  },
+  "repository": "https://github.com/aevim/interactive-rating-component-main.git",
+  "author": "aevim <aedigo12@protonmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "less": "^4.1.3"
+  }
+}
