@@ -148,7 +148,7 @@ a {
   border-radius: 20px;
   max-width: 325px;
   height: 340px;
-  padding: 24px 24px 14px 24px;
+  padding: 26px 26px 10px 26px;
 }
 .rating__header {
   margin-bottom: 28px;
@@ -193,7 +193,7 @@ a {
   color: hsl(0, 0%, 100%);
   display: block;
   font-weight: 700;
-  padding: 18px 0 16px 0;
+  padding: 16px 0 14px 0;
   position: relative;
   margin-bottom: 20px;
   text-align: center;
